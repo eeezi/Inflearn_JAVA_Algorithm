@@ -4,7 +4,7 @@ public class String011 {
     public int solution(String str, char t){
         int answer=0;
         str = str.toUpperCase(); //string 대문자로 변환
-        t = Character.toUpperCase(t); //characoer클래스 사용하여 대문자로 변환
+        t = Character.toUpperCase(t); //character클래스 사용하여 대문자로 변환
         for(int i=0; i<str.length(); i++){
             if(str.charAt(i) == t) answer++;
         }
