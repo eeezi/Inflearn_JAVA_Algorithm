@@ -18,6 +18,7 @@ public class String022 {
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.print(T.solution(str));
+        kb.close();
     }
     
 }

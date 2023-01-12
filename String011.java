@@ -16,5 +16,6 @@ public class String011 {
         String str = kb.next(); //콘솔로 문자열 읽음
         char c = kb.next().charAt(0); //문자 하나만 읽어옴. charAt: 스트링을 인덱스로 접근
         System.out.print(T.solution(str, c));
+        kb.close();
     }
 }
